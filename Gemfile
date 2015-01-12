@@ -7,9 +7,10 @@ gem 'haml-rails'
 
 
 # Use SCSS for stylesheets
-#gem 'sass-rails', '~> 4.0.0'
-group :assets do
-  gem 'sass-rails', git: 'https://github.com/rails/sass-rails.git', branch: '3.2.16'
+gem 'sass-rails', '~> 4.0.0'
+#group :assets do
+#  gem 'sass-rails', git: 'https://github.com/rails/sass-rails.git', branch: '3.2.16'
+#end
 
 gem "therubyracer"
 gem "less-rails"
@@ -42,15 +43,3 @@ group :doc do
 end
 
 gem 'twitter-bootstrap-rails'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
