@@ -8,6 +8,8 @@ gem 'haml-rails'
 
 # Use SCSS for stylesheets
 #gem 'sass-rails', '~> 4.0.0'
+group :assets do
+  gem 'sass-rails', git: 'https://github.com/rails/sass-rails.git', branch: '3.2.16'
 
 gem "therubyracer"
 gem "less-rails"
